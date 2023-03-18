@@ -1,0 +1,24 @@
+{
+    "name": "tyeydy/map",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tyeydy\\Map\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tyeydy\\Map\\MapServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "TED Yan"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
